@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(36, 32, 32) ;
+}
+body a{
+    text-decoration: none;
+}
+#welcome-section{
+    margin-top: 0px;
+    height: 100vh;
+    background-color:rgb(56, 56, 122);
+}
+.welcome{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(36, 32, 32) ;
+   padding-top: 30vh;
+}
+h2{
+font-size: 50px;
+color: cornsilk;
+text-align: center;
+}
+#navbar{
+    position: fixed;
+    margin-top: -2px;
+    background-color: rgb(36, 32, 32);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+}
+#navbar > a{
+    color: white;
+    font-size: 30px;
+}
+.projects{
+    display: flex;
+    background-color: rgb(36, 32, 32) ;
+    text-align: center;
+  padding: 10rem 2rem;
+}
+.project-tile{
+    background-color: slategrey;
+    margin: 10px;
+   text-align: center;
+    font-size: 30px;
+    
+}
+.tile{
+    width:400px;
+   
+}
+#protit{
+    color:rgb(56, 56, 122);
+}
+.tiletitle{
+background-color: slategrey;
+color: white;
+font-size: 20px;
+text-align: center;
+width: 100%;
+}
+footer{
+    background-color:rgb(56, 56, 122) ;
+    padding-top: 20px;
+    text-align: center;
+}
+.contlink{
+    color: black;
+font-size: 35px;
+
+margin-left: 10vw;
+
+}
+
+@media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }}
+
+    .icon{
+        height: 40px;
+    }
